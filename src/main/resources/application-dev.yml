@@ -21,8 +21,7 @@ user:
   age: 20
   address: fdsmfdjjh
   name: oyid
-
+#mybatis配置
 mybatis:
   type-aliases-package: com.oyid.pojo
   mapper-locations: classpath:mapper/*.xml
-
