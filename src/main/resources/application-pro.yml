@@ -1,0 +1,23 @@
+server:
+  address: 127.0.0.1
+  port: 8002
+  context-path: /
+# 数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot
+    username: root
+    password: 123456
+    # jpa配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+info: learning let me happy
+
+user:
+  age: 20
+  address: fdsmfdjjh
+  name: oyid
